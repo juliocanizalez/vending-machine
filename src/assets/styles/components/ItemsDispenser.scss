@@ -1,0 +1,35 @@
+@import '../Vars.scss';
+
+.food-container{
+    height: 430px;
+    margin-right: 1rem;
+    background-color: #fafafa;
+    
+}
+
+.items-container{
+    margin-top: 2.8rem;
+}
+
+.section-title{
+    background-color: $dark-color;
+    margin: 0;
+    padding: 0px 5px;
+    p{
+        margin-top: 10px;
+        font-weight: $font-bold;
+        padding: 0.3rem 0;
+        color: #fafafa;
+    }
+}
+
+.food-items{
+    height: 360px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.messages{
+    height: auto;
+}
+

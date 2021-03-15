@@ -1,0 +1,30 @@
+@import '../Vars.scss';
+
+.food-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.food-text{
+    font-weight: $font-bold;
+    padding-top: 1rem;
+}
+
+.food-time{
+    padding-top:1rem;
+}
+
+.foods-container{
+    margin-top: 0.5rem;
+}
+
+.food-button{
+    background-color: $dark-color;
+    color: #fff;
+    &:hover{
+        color: #fafafa;
+        -webkit-box-shadow: 0px 3px 8px 0px rgba(13,13,13,0.29);
+        -moz-box-shadow: 0px 3px 8px 0px rgba(13,13,13,0.29);
+        box-shadow: 0px 3px 8px 0px rgba(13,13,13,0.29);
+    }
+}

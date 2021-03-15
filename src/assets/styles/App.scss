@@ -2,5 +2,24 @@
 
 body{
     font-family: $project-font;
+    background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
