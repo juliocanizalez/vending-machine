@@ -1,49 +1,48 @@
 {
-    "initialState":{
-        "food":[
-            {
-                "id":1,
-                "name": "Snickers Bar",
-                "timeInSeconds": 10,
-                "iconUrl": "src/assets/icons/"
-            },
-            {
-                "id":2,
-                "name": "Coca-Cola",
-                "timeInSeconds": 15,
-                "iconUrl": "src/assets/icons/"
-            },
-            {
-                "id":3,
-                "name": "M & M's",
-                "timeInSeconds": 6,
-                "iconUrl": "src/assets/icons/"
-            },
-            {
-                "id":4,
-                "name": "MilkyWay Chocolate Bar",
-                "timeInSeconds": 8,
-                "iconUrl": "src/assets/icons/"
-            },
-            {
-                "id":5,
-                "name": "Doritos",
-                "timeInSeconds": 5,
-                "iconUrl": "src/assets/icons/"
-            },
-            {
-                "id":6,
-                "name": "Lays",
-                "timeInSeconds": 5,
-                "iconUrl": "src/assets/icons/"
-            },
-            {
-                "id":7,
-                "name": "Pretzels",
-                "timeInSeconds": 7,
-                "iconUrl": "src/assets/icons/"
-            }
+    "items":[
+        {
+            "id":1,
+            "name": "Snickers Bar",
+            "timeInSeconds": 10,
+            "iconUrl": "https://res.cloudinary.com/dqaav1s3t/image/upload/v1615769828/vendingmachine/chocolate2_xqgbb3.png"
+        },
+        {
+            "id":2,
+            "name": "Coca-Cola",
+            "timeInSeconds": 15,
+            "iconUrl": "https://res.cloudinary.com/dqaav1s3t/image/upload/v1615769827/vendingmachine/coke_lyxzpp.png"
+        },
+        {
+            "id":3,
+            "name": "Chocolate",
+            "timeInSeconds": 6,
+            "iconUrl": "https://res.cloudinary.com/dqaav1s3t/image/upload/v1615769828/vendingmachine/chocolate1_paydmn.png"
+        },
+        {
+            "id":4,
+            "name": "MilkyWay Chocolate Bar",
+            "timeInSeconds": 8,
+            "iconUrl": "https://res.cloudinary.com/dqaav1s3t/image/upload/v1615769828/vendingmachine/chocolate1_paydmn.png"
+        },
+        {
+            "id":5,
+            "name": "Doritos",
+            "timeInSeconds": 5,
+            "iconUrl": "https://res.cloudinary.com/dqaav1s3t/image/upload/v1615769826/vendingmachine/nachos_vradvh.png"
+        },
+        {
+            "id":6,
+            "name": "Lays",
+            "timeInSeconds": 5,
+            "iconUrl": "https://res.cloudinary.com/dqaav1s3t/image/upload/v1615769826/vendingmachine/potato-chips_ncgicm.png"
+        },
+        {
+            "id":7,
+            "name": "Pretzels",
+            "timeInSeconds": 7,
+            "iconUrl": "https://res.cloudinary.com/dqaav1s3t/image/upload/v1615769829/vendingmachine/pretzels_o8rdnz.png"
+        }
 
-        ]
-    }
+    ]
+    
 }
