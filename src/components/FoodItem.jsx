@@ -18,7 +18,7 @@ const FoodItem = ({ name, timeInSeconds, iconUrl }) => {
             <div className="col-1">
                 <p className="food-time">{`${secs}s`}</p>
             </div>
-            <div className="col-3">
+            <div className="col-3 text-center">
                 <button className="btn btn-sm food-button">Prepare</button>
             </div>
         </div>
